@@ -1,0 +1,5 @@
+C:\Users\intel\Desktop\My Files\mega\evote\evote\bin\evote.dll
+C:\Users\intel\Desktop\My Files\mega\evote\evote\bin\evote.pdb
+C:\Users\intel\Desktop\My Files\mega\evote\evote\obj\Debug\evote.dll
+C:\Users\intel\Desktop\My Files\mega\evote\evote\obj\Debug\evote.pdb
+C:\Users\intel\Desktop\My Files\mega\evote\evote\obj\Debug\evote.csprojResolveAssemblyReference.cache

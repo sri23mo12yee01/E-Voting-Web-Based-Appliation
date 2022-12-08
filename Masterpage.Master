@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage.master.cs" Inherits="evote.Masterpage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>MY WEBSITE</title>
+    <link rel="Stylesheet" type="text/css" href="~/styles/Stylesheet.css" />
+   
+        
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+    <div id="banner">
+        
+    </div>
+            <div>
+            <marquee>
+                    <img src="Image/1/bbp/ps1.jpg"  height="70px" width="70px" />
+                    <img src="Image/1/bbp/ps.jpg" height="70px" width="70px"/>
+                    <img src="Image/1/bjp/bjp.jpg"height="70px" width="70px"/>
+                    <img src="Image/1/congress/download.jpg"height="70px" width="70px"/>  
+                    <img src="Image/1/ncp/pawar.jpg"height="70px" width="70px"/> 
+                    <img src="Image/1/raj/download.jpg"height="70px" width="70px"/> 
+                    <img src="Image/1/rpi/ridp.jpg"height="70px" width="70px"/> 
+                    <img src="Image/1/shivsena/images.jpg"height="70px" width="70px"/> 
+                    <img src="Image/ahmadnagar/jag.jpg"height="70px" width="70px"/> 
+                    <img src="Image/ahmadnagar/mahedra.jpg"height="70px" width="70px"/> 
+                    <img src="Image/ahmadnagar/paresh.jpg"height="70px" width="70px"/> 
+                    <img src="Image/ahmadnagar/pk-patil.jpg"height="70px" width="70px"/> 
+                    <img src="Image/ahmadnagar/patil.jpg"height="70px" width="70px"/> 
+                    <img src="Image/ahmadnagar/vivek-patil.jpg"height="70px" width="70px"/> 
+                    <img src="Image/akola/aap.jpg"height="70px" width="70px"/> 
+                    <img src="Image/akola/bjp.jpg"height="70px" width="70px"/>  
+                    <img src="Image/akola/bhari.png"height="70px" width="70px"/> 
+                    <img src="Image/akola/ajay.jpg"height="70px" width="70px"/>            
+            </marquee>
+   </div>
+   <div style="font-family: David; font-size: medium; font-weight: 400">
+                    <asp:Menu ID="navMenu" runat="server" BackColor="#007FFF" BorderColor="#0066CC" StaticMenuItemStyle-ForeColor="#FFFFFF"
+                        StaticMenuItemStyle-VerticalPadding="10px" StaticMenuItemStyle-HorizontalPadding="50px"
+                        RenderingMode="List" Orientation="Horizontal" Font-Size="20px" 
+                        Width="100%" >
+                        <Items>
+                            <asp:MenuItem Text="Home" NavigateUrl="Log.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Elections" NavigateUrl="Election.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Results" NavigateUrl="#"></asp:MenuItem>
+                            <asp:MenuItem Text="About Us" NavigateUrl="AboutUs.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="FAQS" NavigateUrl="#"></asp:MenuItem>
+                            <asp:MenuItem Text="Contact Us" NavigateUrl="#"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                    <br />
+                </div>
+    <div id="content_area">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="sidebar" align="center">
+                    <table>
+                        <tr>
+                            <td>
+                                <marquee behaviour="scroll" direction="up" width="200px" height="130px" scrollamount="2"
+                                    scrolldelay="80" onmouseover="this.stop();" onmouseout="this.start();" id="MARQUEE1"
+                                    style="text-align: left;" bgcolor="66FFFF" class="scrolling"><a href="http://eci.nic.in/eci/eci.html" target="_self" class="scrolling"></a>
+      <a href="http://eci.nic.in/eci/eci.html">Election 2016</a><br /><br />
+      <a href="http://eci.nic.in/eci/eci.html">Election 2015</a><br /><br />
+      <a href="http://eci.nic.in/eci/eci.html">Election 2014</a><br /><br />
+      <a href="http://eci.nic.in/eci/eci.html">Election 2013</a>
+      
+      </marquee>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+    <div id="footer">
+    <p>All rights reserved.</p>
+   
+    </div>
+    
+    </form>
+</body>
+</html>
