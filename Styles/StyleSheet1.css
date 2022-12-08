@@ -1,0 +1,97 @@
+﻿body
+{
+    font-family:'Lucida Handwriting',tahoma,verdana,arial,sans-serif;
+    background-color:#e9e9e9;
+ }
+ 
+ #wrapper
+ {
+    width:1080px; 
+    margin:0 auto;
+    padding:10px;
+    border:5px solid #dedede;
+    background-color:Silver;
+    
+     }
+     
+  #banner
+  {
+      height:200px;
+      border:3px solid 3e3e3e3;
+      background-image:url(../img/logo1.jpg);
+      background-size:100%;
+      background-repeat:no-repeat;
+     
+      }
+  #nav
+   {
+       height:30px;
+       width:100%;
+       margin:0px;
+       }
+       
+      #nav ul
+      {
+          padding:0;
+          list-style:none;
+          
+          }
+       #nav ul li
+       {
+           float:left;
+           text-align:center;
+           width:180px;
+           margin:1px;
+           }
+           
+        #nav ul li a
+        {
+            color:#fff;
+            text-decoration:none;
+            font-family:Calibri;
+            background:0a0;
+            display:block;
+            padding:10px;
+            }
+            
+        #nav ul li a:hover
+        {
+            background:0e0;
+            color:000; 
+            }
+            
+        #nav ul li
+        {
+            display:none;
+            }
+          
+          
+          
+    #content_area
+    {
+        float:left;
+        width:750px;
+        margin:20px 0 20px 0;
+        padding:10px;
+        border:3px solid 3e3e3e3;
+        }
+        
+     #sidebar
+     {
+         float:right;
+         width:250px;
+         height:400px;
+         margin:20px 20px 20px 10px;
+         border:3px solid 3e3e3e3;
+         }
+         
+     #footer
+     {
+         clear:both;
+         width:auto;
+         height:40px;
+         margin:20px;
+         background-color:Blue;
+        color:White;
+        text-align:center;
+         }
